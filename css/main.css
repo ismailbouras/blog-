@@ -1,0 +1,58 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background: #f6f6f6;
+}
+nav .brand-logo{
+    padding-left: 20px  !important;
+}
+nav .nav-wrapper{
+    padding-right: 20px !important;
+}
+.sidenav{
+    padding-top: 30px ;
+}
+.about{
+    margin-top: 12rem;
+    border-radius: 10px;
+}
+.para{
+    padding-bottom: 2rem;
+}
+
+.add-post{
+    margin-top: 60px;
+}
+.add-post input:focus{
+    border-bottom: 1px solid #00bfa5 ;
+
+}
+.article{
+    background: #FFF;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+
+.article a{
+    color: #00bfa5;
+}
+.article button{
+    padding: 10px;
+    color: #FFF;
+    background: #00bfa5;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+div .boxx{
+    display: inline-block; 
+    padding: 32px 48px 0px 48px; 
+    border: 1px solid #EEE;
+}
+@media only screen and(min-width:993) {
+    .container{
+            width: 90%;
+        }
+}
